@@ -1,6 +1,7 @@
 #page1
 
-.parent {
+.Header1 {
+ background-color: lightblue;
 display: grid;
 grid-template-columns: repeat(10, 1fr);
 grid-template-rows: repeat(10, 1fr);
@@ -16,7 +17,7 @@ grid-row-gap: 0px;
 
 #page2
 
-.parent {
+.Header2 {
 display: grid;
 grid-template-columns: repeat(10, 1fr);
 grid-template-rows: repeat(20, 1fr);
@@ -37,7 +38,7 @@ grid-row-gap: 0px;
 
 #page3
 
-.parent {
+.Header3     {
 display: grid;
 grid-template-columns: repeat(10, 1fr);
 grid-template-rows: repeat(20, 1fr);
