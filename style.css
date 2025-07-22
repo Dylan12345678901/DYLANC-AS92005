@@ -1,13 +1,30 @@
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  display: inline;
+  background-color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+   color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 .Header1 {
  background-color: lightblue;
- padding: 20px;
- margin: 15px;
- border: 2px solid lightblue;
- display: grid;
- grid-template-columns: repeat(10, 1fr);
- grid-template-rows: repeat(10, 1fr);
- grid-column-gap: 0px;
- grid-row-gap: 0px;
+ padding: 10px;
+ margin: 10px;
+ border: 10px solid lightblue;
+ text-align: center;
+
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 11; }
