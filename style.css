@@ -1,16 +1,13 @@
-#page1
-
 .Header1 {
  background-color: lightblue;
-  padding: 20px;
-  margin: 15px;
-    border: 2px solid steelblue;
-     text-align: center;
-display: grid;
-grid-template-columns: repeat(10, 1fr);
-grid-template-rows: repeat(10, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
+ padding: 20px;
+ margin: 15px;
+ border: 2px solid lightblue;
+ display: grid;
+ grid-template-columns: repeat(10, 1fr);
+ grid-template-rows: repeat(10, 1fr);
+ grid-column-gap: 0px;
+ grid-row-gap: 0px;
 }
 
 .div1 { grid-area: 1 / 1 / 2 / 11; }
