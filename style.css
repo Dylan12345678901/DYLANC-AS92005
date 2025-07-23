@@ -1,28 +1,20 @@
-ul {
-  list-style-type: none;
-  margin: 10;
-  padding: 10;
-  display: inline;
-  background-color: black;
-}
 
-li {
-  float: left;
-}
+
+
 
 li a {
   display: block;
-   color: black;
+   color: grey;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 .Header1 {
- background-color: lightblue;
+ background-color: blue;
  padding: 10px;
  margin: 10px;
- border: 10px solid lightblue;
+ border: 10px solid blue;
  text-align: center;
 
 }
