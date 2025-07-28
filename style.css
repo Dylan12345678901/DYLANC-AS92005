@@ -2,9 +2,11 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #333;
   top: 0;
-  width: 100%;
+  width: 10%;
+  overflow: hidden;
+  opacity: 1
 }
 
 li {
@@ -15,15 +17,19 @@ li a {
   display: block;
    color: grey;
   text-align: center;
-  padding: 0px 0px;
+  padding: 10px 10px;
   text-decoration: none;
+}
+
+li a:hover {
+ background-color: #111;
 }
 
 .Header1 {
  background-color: blue;
  padding: 10px;
  margin: 10px;
- border: 10px solid blue;
+ border: 10px red;
  text-align: center;
 
 }
