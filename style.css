@@ -1,29 +1,32 @@
- ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #333;
-  top: 0;
-  width: 10%;
-  overflow: hidden;
-  opacity: 1
+.navbar{
+  border: 0.5px solid gray;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+  background: transparent;
+  background-color: rgba(34, 49, 34, 0.6);
+  }
+
+a.nav div{
+text-align: center;
 }
 
-li {
- display: inline;
-}
 
-li a {
-  display: block;
-   color: grey;
-  text-align: center;
-  padding: 10px 10px;
+a.nav {
+  padding: 45px 0% 0px 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
+  color: white;
+  width: 20%;
+  opacity: 0.5;
 }
 
-li a:hover {
- background-color: #111;
-}
+
+
+div a:hover {
+background-color: #2b371b;
+backdrop-filter: blur(0.5px);
 
 .Header1 {
  background-color: blue;
