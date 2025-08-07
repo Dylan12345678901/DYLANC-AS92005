@@ -1,6 +1,7 @@
 .navbar{
   display: flex;
   justify-content: center;
+  backdrop-filter: blur(2px);
   background: transparent;
   background-color: rgba(242,101, 55, 0.2);
   }
@@ -12,13 +13,9 @@ a.nav {
   text-decoration: none;
   color: black;
   width: 20%;
-  opacity: 1;
 }
 
-body{
- background-image: url('images/higher quality bg.jpg');
- background-size: 100%;
-}
+
 
 li a {
   display: block;
@@ -27,14 +24,24 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
-li a:hover {
- backdrop-filter: blur(0.5px);
- opacity: 1;
+body{
+ background-image: url('images/higher quality bg.jpg');
+ background-size: 100%;
 }
+
+div a:hover {
+background-color: rgb(242, 101, 55);
+opacity:0.5;
+}
+
 
 .page1div1 {
 text-align: center;
+ backdrop-filter: blur(5px);
+  background: transparent;
+  max-width: 1200px;
+  padding: 5px;
+  margin: 0 auto;
 }
 .page2div1 {
 text-align: center;
