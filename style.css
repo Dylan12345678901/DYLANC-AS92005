@@ -1,3 +1,4 @@
+/*Lines 1 - 30 make the navbar on each page the right colour, size, and makes them interactive when hovered over. */
 .navbar{
   display: flex;
   justify-content: center;
@@ -15,8 +16,6 @@ a.nav {
   width: 20%;
 }
 
-
-
 li a {
   display: block;
   color: white;
@@ -24,17 +23,20 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-body{
- background-image: url('images/higher quality bg.jpg');
- background-size: 100%;
-}
 
 div a:hover {
 background-color: rgb(242, 101, 55);
 opacity:0.5;
 }
 
+/*Makes the background image take up 100% of the page space*/
+body{
+ background-image: url('images/higher quality bg.jpg');
+ background-size: 100%;
+}
 
+
+/*Lines 40 - 75 make the blur effect for each paragraph, and aligns the text properly while keeping it the right size*/
 .page1div1 {
 text-align: center;
  backdrop-filter: blur(5px);
@@ -43,39 +45,83 @@ text-align: center;
   padding: 5px;
   margin: 0 auto;
 }
+
 .page2div1 {
 text-align: center;
+     backdrop-filter: blur(5px);
+  background: transparent;
+  max-width: 1200px;
+  padding: 5px;
+  margin: 0 auto;
 }
 
+.page3div1 {
+text-align: center;
+     backdrop-filter: blur(5px);
+  background: transparent;
+  max-width: 1200px;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+.page3div2 {
+text-align: left;
+     backdrop-filter: blur(5px);
+  background: transparent;
+  max-width: 1200px;
+  padding: 5px;
+  margin: 0 auto;
+}
+/*Lines 76 - 86 make the headers for each page centred*/
 .Header1 {
-text-align:center;
+    text-align:center;
 }
 
 .Header2 {
-text-align:center;
+    text-align:center;
+}
+
+.Header3 {
+    text-align:center;
+}
+
+/*Lines 89 - 97 matche the footer colour to the head colour */
+footer {
+  display: flex;
+  color: black;
+  justify-content: center;
+  backdrop-filter: blur(2px);
+  background: transparent;
+  background-color: rgba(242,101, 55, 0.2);
+  padding: 20px 0% 20px 45px;
+}
+/*Lines 99 - 121 make the links black, except while they are clicked, where they instead glow orange.*/
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 
-#page2
 
-.Header2 {
-display: grid;
-grid-template-columns: repeat(10, 1fr);
-grid-template-rows: repeat(20, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-}
-
-
-
-
-.Header3     {
-display: grid;
-grid-template-columns: repeat(10, 1fr);
-grid-template-rows: repeat(20, 1fr);
-grid-column-gap: 0px;
-grid-row-gap: 0px;
-}
 
 
 
